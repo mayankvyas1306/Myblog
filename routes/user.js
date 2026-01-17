@@ -18,7 +18,7 @@ router.post('/signup',async(req,res)=>{
         email,
         password,
     });
-    return res.redirect("home")
+    return res.redirect("/user/signin")
 })
 
 router.post('/signin',async (req,res)=>{
